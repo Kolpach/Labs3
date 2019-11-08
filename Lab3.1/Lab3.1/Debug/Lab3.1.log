@@ -1,0 +1,4 @@
+﻿  Main.cpp
+C:\Users\рбт\source\repos\Lab3.1\Lab3.1\Main.cpp(39,11): warning C4101:  value: неиспользованная локальная переменная
+C:\Users\рбт\source\repos\Lab3.1\Lab3.1\Main.cpp(41,11): warning C4101:  year: неиспользованная локальная переменная
+  Lab3.1.vcxproj -> C:\Users\рбт\source\repos\Lab3.1\Debug\Lab3.1.exe
