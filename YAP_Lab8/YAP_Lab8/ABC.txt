@@ -1,5 +1,0 @@
-
-coin 10 Russia 2011 bent Me
-banknote 100 Russia 2000 no Somebody
-coin 10 England 1990 no Guy
-banknote 100 England 2000 rumpled Sacha

@@ -1,4 +1,0 @@
-
-coin 1000 England 1990 no Guy
-coin 1000000 England 1990 no Guy
-coin 1000000 England 1990 no Guy
