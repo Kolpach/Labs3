@@ -18,18 +18,18 @@
     <ClCompile Include="main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Date.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="IError.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IError.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="commonUsings.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="wrongSymbolError.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="notFoundError.h">
+    <ClInclude Include="Date.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
