@@ -5,7 +5,7 @@ protected:
 	std::string error_msg;
 public:
 	virtual void print() = 0;
-	
+	virtual ~IError() = default;
 };
 
 class curruptedError :

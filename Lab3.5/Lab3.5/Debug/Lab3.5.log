@@ -1,2 +1,89 @@
-﻿  main.cpp
-  Lab3.5.vcxproj -> C:\Users\рбт\source\repos\Lab3.5\Debug\Lab3.5.exe
+﻿  Date.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\xmemory(760): error C2259:  IError: невозможно создать экземпляр абстрактного класса
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\xmemory(760): message :  из-за следующих членов:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\xmemory(760): message :  void IError::print(void): абстрактный
+C:\Users\рбт\source\repos\Lab3.5\Lab3.5\IError.h(11): message :   см. объявление "IError::print"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(635): message :  выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,_Ty>(_Alloc &,_Objty *const ,_Ty &&)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(635): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(635): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(635): message :             _Alloc=std::allocator<IError>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(635): message :             _Ty=IError,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(635): message :             _Objty=IError
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(635): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(640): message :  выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,_Ty>(_Alloc &,_Objty *const ,_Ty &&)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(640): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(640): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(640): message :             _Alloc=std::allocator<IError>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(640): message :             _Ty=IError,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(640): message :             _Objty=IError
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(640): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(653): message :  выполняется компиляция ссылки на экземпляр шаблон функции "void std::vector<IError,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<_Ty>(_Ty &&)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(653): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(653): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(653): message :             _Ty=IError
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(653): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(674): message :  выполняется компиляция ссылки на экземпляр шаблон функции "void std::vector<IError,std::allocator<_Ty>>::emplace_back<IError>(IError &&)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(674): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(674): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(674): message :             _Ty=IError
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(674): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(673): message :  во время компиляции функции-члена класс шаблон "void std::vector<IError,std::allocator<_Ty>>::push_back(_Ty &&)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(673): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(673): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(673): message :             _Ty=IError
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(673): message :         ]
+C:\Users\рбт\source\repos\Lab3.5\Lab3.5\Date.cpp(25): message :  выполняется компиляция ссылки на экземпляр шаблон функции "void std::vector<IError,std::allocator<_Ty>>::push_back(_Ty &&)"
+C:\Users\рбт\source\repos\Lab3.5\Lab3.5\Date.cpp(25): message :         with
+C:\Users\рбт\source\repos\Lab3.5\Lab3.5\Date.cpp(25): message :         [
+C:\Users\рбт\source\repos\Lab3.5\Lab3.5\Date.cpp(25): message :             _Ty=IError
+C:\Users\рбт\source\repos\Lab3.5\Lab3.5\Date.cpp(25): message :         ]
+  main.cpp
+C:\Users\рбт\source\repos\Lab3.5\Lab3.5\Date.cpp(12): message :  выполняется компиляция ссылки на экземпляр класс шаблон функции "std::vector<IError,std::allocator<_Ty>>"
+C:\Users\рбт\source\repos\Lab3.5\Lab3.5\Date.cpp(12): message :         with
+C:\Users\рбт\source\repos\Lab3.5\Lab3.5\Date.cpp(12): message :         [
+C:\Users\рбт\source\repos\Lab3.5\Lab3.5\Date.cpp(12): message :             _Ty=IError
+C:\Users\рбт\source\repos\Lab3.5\Lab3.5\Date.cpp(12): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\xmemory(760): error C2259:  IError: невозможно создать экземпляр абстрактного класса
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\xmemory(760): message :  из-за следующих членов:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\xmemory(760): message :  void IError::print(void): абстрактный
+C:\Users\рбт\source\repos\Lab3.5\Lab3.5\IError.h(11): message :   см. объявление "IError::print"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(635): message :  выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,const _Ty&>(_Alloc &,_Objty *const ,const _Ty &)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(635): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(635): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(635): message :             _Alloc=std::allocator<IError>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(635): message :             _Ty=IError,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(635): message :             _Objty=IError
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(635): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(640): message :  выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,const _Ty&>(_Alloc &,_Objty *const ,const _Ty &)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(640): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(640): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(640): message :             _Alloc=std::allocator<IError>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(640): message :             _Ty=IError,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(640): message :             _Objty=IError
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(640): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(653): message :  выполняется компиляция ссылки на экземпляр шаблон функции "void std::vector<IError,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<const _Ty&>(const _Ty &)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(653): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(653): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(653): message :             _Ty=IError
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(653): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(670): message :  выполняется компиляция ссылки на экземпляр шаблон функции "void std::vector<IError,std::allocator<_Ty>>::emplace_back<const _Ty&>(const _Ty &)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(670): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(670): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(670): message :             _Ty=IError
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(670): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(669): message :  во время компиляции функции-члена класс шаблон "void std::vector<IError,std::allocator<_Ty>>::push_back(const _Ty &)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(669): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(669): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(669): message :             _Ty=IError
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include\vector(669): message :         ]
+C:\Users\рбт\source\repos\Lab3.5\Lab3.5\main.cpp(25): message :  выполняется компиляция ссылки на экземпляр шаблон функции "void std::vector<IError,std::allocator<_Ty>>::push_back(const _Ty &)"
+C:\Users\рбт\source\repos\Lab3.5\Lab3.5\main.cpp(25): message :         with
+C:\Users\рбт\source\repos\Lab3.5\Lab3.5\main.cpp(25): message :         [
+C:\Users\рбт\source\repos\Lab3.5\Lab3.5\main.cpp(25): message :             _Ty=IError
+C:\Users\рбт\source\repos\Lab3.5\Lab3.5\main.cpp(25): message :         ]
+  Создание кода...
+C:\Users\рбт\source\repos\Lab3.5\Lab3.5\main.cpp(25): message :  выполняется компиляция ссылки на экземпляр класс шаблон функции "std::vector<IError,std::allocator<_Ty>>"
+C:\Users\рбт\source\repos\Lab3.5\Lab3.5\main.cpp(25): message :         with
+C:\Users\рбт\source\repos\Lab3.5\Lab3.5\main.cpp(25): message :         [
+C:\Users\рбт\source\repos\Lab3.5\Lab3.5\main.cpp(25): message :             _Ty=IError
+C:\Users\рбт\source\repos\Lab3.5\Lab3.5\main.cpp(25): message :         ]
